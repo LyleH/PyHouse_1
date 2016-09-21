@@ -1,0 +1,29 @@
+AMP usage
+
+
+Factories:
+Server Factories listen for an incoming connection and are used to create a protocol to communicate with a
+client that started talking to a server.  Use the factory to hold persistent information about the connection.
+
+Client Factories are used to start a protocol to talk to a server.
+
+
+BinaryBoxProtocol is ???
+
+BoxDispatcher is ???
+
+CommandLocator is ???
+
+SimpleStringLocator is ???
+
+AMP is a subclass that inherits from the above 4 classes.
+
+
+This code creates a "One Shot' client.  The connection automatically closes after sending one message.
+        l_endpoint = TCP4ClientEndpoint(p_pyhouses_obj.Reactor, p_address, AMP_PORT)
+        l_defer = connectProtocol(l_endpoint, AMP())  # This creates a 'One Shot' client
+
+
+This code creates a reusable client.
+        l_endpoint = TCP4ClientEndpoint(p_pyhouses_obj.Reactor, p_address, AMP_PORT)
+        l_defer = l_endpoint.connect(ClientFactory.forProtocol(AMP))

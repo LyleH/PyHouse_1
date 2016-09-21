@@ -1,0 +1,7 @@
+#
+# these files need installed somewhere else in the system.
+#
+
+src/plugins/nevow/plugins/pyhouse_location.py
+
+### END DBK
