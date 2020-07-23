@@ -24,7 +24,7 @@ class PyHouseData(object):
     """
     ==> PyHouse.xxx as in the def below.
 
-    The master object, contains all other 'configuration' objects.
+    The main object, contains all other 'configuration' objects.
 
     NOTE that the data entries need to be dicts so json encoding of the data works properly.
     """
@@ -607,7 +607,7 @@ class IrrigationSystemData(DeviceData):
     """
     def __init__(self):
         super(IrrigationSystemData, self).__init__()
-        self.UsesMasterValve = False  # Master valve and/or Pump Relay
+        self.UsesMainValve = False  # Main valve and/or Pump Relay
         self.Zones = {}
 
 

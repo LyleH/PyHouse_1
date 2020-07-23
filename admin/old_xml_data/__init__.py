@@ -80,7 +80,7 @@ XML_LONG = """
                     <DevCat>3140</DevCat>
                     <GroupList>All_Lights|Outside|Foyer(0;0)</GroupList>
                     <GroupNumber>0</GroupNumber>
-                    <Master>0</Master>
+                    <Main>0</Main>
                     <ProductKey>30.1A.35</ProductKey>
                     <Responder>True</Responder>
                 </Light>
@@ -97,7 +97,7 @@ XML_LONG = """
                     <DevCat>0x0</DevCat>
                     <GroupList>All_Lights|Outside|Garage(0;0)</GroupList>
                     <GroupNumber>2</GroupNumber>
-                    <Master>True</Master>
+                    <Main>True</Main>
                     <ProductKey>0</ProductKey>
                     <Responder>True</Responder>
                 </Light>
@@ -116,7 +116,7 @@ XML_LONG = """
                     <DevCat>0x0</DevCat>
                     <GroupList />
                     <GroupNumber>0</GroupNumber>
-                    <Master>False</Master>
+                    <Main>False</Main>
                     <ProductKey>0</ProductKey>
                     <Responder>True</Responder>
                     <Interface>Serial</Interface>
@@ -143,7 +143,7 @@ XML_LONG = """
                     <DevCat>0x0</DevCat>
                     <GroupList />
                     <GroupNumber>0</GroupNumber>
-                    <Master>False</Master>
+                    <Main>False</Main>
                     <ProductKey>0</ProductKey>
                     <Responder>True</Responder
                     ><Interface>Serial</Interface>
@@ -162,7 +162,7 @@ XML_LONG = """
                     <Coords>None</Coords>
                     <Dimmable>True</Dimmable>
                     <Family>UPB</Family>
-                    <Room>Master Bath</Room>
+                    <Room>Main Bath</Room>
                     <Type>Controller</Type>
                     <UUID>ec9bc470-89c9-11e3-8f15-082e5f8cdfd2</UUID>
                     <UPBNetworkID>0</UPBNetworkID>
@@ -180,15 +180,15 @@ XML_LONG = """
                     <Coords>None</Coords>
                     <Dimmable>False</Dimmable>
                     <Family>Insteon</Family>
-                    <Room>Master Bath</Room>
+                    <Room>Main Bath</Room>
                     <Type>Button</Type>
                     <UUID>ec97308f-89c9-11e3-a78b-082e5f8cdfd2</UUID>
                     <Address>16.E5.B6</Address>
                     <Controller>True</Controller>
                     <DevCat>0x0</DevCat>
-                    <GroupList>All_Lights|MasterBedroom(0;0)</GroupList>
+                    <GroupList>All_Lights|MainBedroom(0;0)</GroupList>
                     <GroupNumber>1</GroupNumber>
-                    <Master>0</Master>
+                    <Main>0</Main>
                     <ProductKey>0</ProductKey>
                     <Responder>True</Responder>
                 </Button>
@@ -205,7 +205,7 @@ XML_LONG = """
                     <DevCat>0</DevCat>
                     <GroupList>All_Buttons</GroupList>
                     <GroupNumber>2</GroupNumber>
-                    <Master>False</Master>
+                    <Main>False</Main>
                     <ProductKey>0</ProductKey>
                     <Responder>True</Responder>
                 </Button>
@@ -260,13 +260,13 @@ XML_LONG = """
                 <SavingTime>60.0</SavingTime>
             </Location>
             <Rooms>
-                <Room Active="True" Key="0" Name="Master Bath">
+                <Room Active="True" Key="0" Name="Main Bath">
                     <UUID>ec955bd0-89c9-11e3-82b3-082e5f8cdfd2</UUID>
                     <Comment>None</Comment>
                     <Corner>0.83, 10.58</Corner>
                     <Size>14.00, 13.50</Size>
                 </Room>
-                <Room Active="False" Key="2" Name="Master Bedroom">
+                <Room Active="False" Key="2" Name="Main Bedroom">
                     <UUID>ec955bd2-89c9-11e3-b50b-082e5f8cdfd2</UUID>
                     <Comment>None</Comment>
                     <Corner>0.83, 25.08</Corner>
@@ -372,7 +372,7 @@ XML_LONG = """
                 <Schedule Active="False" Key="5" Name="Night xxx">
                     <Level>60</Level>
                     <LightName>mbr_rope</LightName><LightNumber>6</LightNumber>
-                    <Rate>0</Rate><RoomName>Master Bedroom</RoomName>
+                    <Rate>0</Rate><RoomName>Main Bedroom</RoomName>
                     <Time>22:00</Time><Type>Device</Type>
                     <UUID>ec95d105-89c9-11e3-8b11-082e5f8cdfd2</UUID>
                 </Schedule>
@@ -389,7 +389,7 @@ XML_LONG = """
                 </Schedule>
                 <Schedule Active="True" Key="8" Name="Evening">
                     <Level>60</Level><LightName>mbr_rope</LightName>
-                    <LightNumber>6</LightNumber><Rate>0</Rate><RoomName>Master Bedroom</RoomName>
+                    <LightNumber>6</LightNumber><Rate>0</Rate><RoomName>Main Bedroom</RoomName>
                     <Time>22:10</Time><Type>Device</Type><UUID>ec95f813-89c9-11e3-a132-082e5f8cdfd2</UUID>
                 </Schedule>
                 <Schedule Active="True" Key="9" Name="Night">
@@ -411,7 +411,7 @@ XML_LONG = """
                 <Schedule Active="True" Key="12" Name="Morning">
                     <Level>0</Level><LightName>mbr_rope</LightName>
                     <LightNumber>6</LightNumber><Rate>0</Rate>
-                    <RoomName>Master Bedroom</RoomName>
+                    <RoomName>Main Bedroom</RoomName>
                     <Time>sunrise + 00:30</Time><Type>Device</Type>
                     <UUID>ec95f817-89c9-11e3-9bc6-082e5f8cdfd2</UUID>
                 </Schedule>
@@ -451,7 +451,7 @@ XML_LONG = """
                     <DevCat>3140</DevCat>
                     <GroupList>All_Lights|Outside|Foyer(0;0)</GroupList>
                     <GroupNumber>0</GroupNumber>
-                    <Master>0</Master>
+                    <Main>0</Main>
                     <ProductKey>30.1A.35</ProductKey>
                     <Responder>True</Responder>
                 </Light>
@@ -460,7 +460,7 @@ XML_LONG = """
                     <Family>Insteon</Family><Room>Garage</Room><Type>Light</Type>
                     <UUID>ec9d9931-89c9-11e3-8fd7-082e5f8cdfd2</UUID><Address>17.47.A1</Address>
                     <Controller>True</Controller><DevCat>0x0</DevCat><GroupList>All_Lights|Outside|Garage(0;0)</GroupList>
-                    <GroupNumber>0</GroupNumber><Master>0</Master>
+                    <GroupNumber>0</GroupNumber><Main>0</Main>
                     <ProductKey>0</ProductKey>
                     <Responder>True</Responder>
                 </Light>
@@ -471,16 +471,16 @@ XML_LONG = """
                     <UUID>ec9d9932-89c9-11e3-a921-082e5f8cdfd2</UUID>
                     <Address>16.C9.37</Address><Controller>True</Controller><DevCat>0</DevCat>
                     <GroupList>All_Lights|DiningRoom(12;12)</GroupList>
-                    <GroupNumber>0</GroupNumber><Master>0</Master>
+                    <GroupNumber>0</GroupNumber><Main>0</Main>
                     <ProductKey>F4.20.20</ProductKey><Responder>True</Responder>
                 </Light>
-                <Light Active="True" Key="3" Name="dr_chand_slave">
+                <Light Active="True" Key="3" Name="dr_chand_subordinate">
                     <Comment>SwitchLink dimmer</Comment><Coords>['0', '0']</Coords>
                     <Dimmable>True</Dimmable><Family>Insteon</Family><Room>Dining Room</Room>
                     <Type>Light</Type><UUID>ec9dc040-89c9-11e3-b4ce-082e5f8cdfd2</UUID><Address>16.C9.D0</Address>
                     <Controller>True</Controller><DevCat>8007</DevCat>
                     <GroupList>All_Lights|Pantry(0;0)</GroupList>
-                    <GroupNumber>0</GroupNumber><Master>0</Master><ProductKey>EB.2A.A8</ProductKey>
+                    <GroupNumber>0</GroupNumber><Main>0</Main><ProductKey>EB.2A.A8</ProductKey>
                     <Responder>True</Responder>
                 </Light>
                 <Light Active="True" Key="4" Name="nook_chand">
@@ -490,25 +490,25 @@ XML_LONG = """
                     <UUID>ec9dc041-89c9-11e3-b15f-082e5f8cdfd2</UUID>
                     <Address>17.C2.72</Address><Controller>True</Controller>
                     <DevCat>0xc44</DevCat><GroupList>All_Lights|Pantry(0;0)</GroupList>
-                    <GroupNumber>0</GroupNumber><Master>0</Master><ProductKey>0</ProductKey><Responder>True</Responder>
+                    <GroupNumber>0</GroupNumber><Main>0</Main><ProductKey>0</ProductKey><Responder>True</Responder>
                 </Light>
-                <Light Active="True" Key="5" Name="nook_chand_slave">
+                <Light Active="True" Key="5" Name="nook_chand_subordinate">
                     <Comment>SwitchLink dimmer</Comment><Coords>['0', '0']</Coords>
                     <Dimmable>True</Dimmable><Family>Insteon</Family>
                     <Room>Breakfast Nook</Room><Type>Light</Type>
                     <UUID>ec9dc042-89c9-11e3-a4b0-082e5f8cdfd2</UUID>
                     <Address>17.C3.30</Address><Controller>True</Controller><DevCat>0x0</DevCat>
                     <GroupList>All_Lights|Nook(12;12)</GroupList>
-                    <GroupNumber>0</GroupNumber><Master>0</Master><ProductKey>0</ProductKey>
+                    <GroupNumber>0</GroupNumber><Main>0</Main><ProductKey>0</ProductKey>
                     <Responder>True</Responder>
                 </Light>
                 <Light Active="True" Key="6" Name="mbr_rope">
                     <Comment>SwitchLink dimmer</Comment><Coords>['0', '0']</Coords>
                     <Dimmable>True</Dimmable><Family>Insteon</Family>
-                    <Room>Master Bedroom</Room><Type>Light</Type><UUID>ec9de74f-89c9-11e3-9706-082e5f8cdfd2</UUID>
+                    <Room>Main Bedroom</Room><Type>Light</Type><UUID>ec9de74f-89c9-11e3-9706-082e5f8cdfd2</UUID>
                     <Address>16.C0.C4</Address><Controller>True</Controller><DevCat>61324</DevCat>
-                    <GroupList>All_Lights|MasterBedroom(7;9)</GroupList><GroupNumber>0</GroupNumber>
-                    <Master>0</Master><ProductKey>D0.30.D9</ProductKey><Responder>True</Responder>
+                    <GroupList>All_Lights|MainBedroom(7;9)</GroupList><GroupNumber>0</GroupNumber>
+                    <Main>0</Main><ProductKey>D0.30.D9</ProductKey><Responder>True</Responder>
                 </Light>
                 <Light Active="True" Key="7" Name="lr_rope">
                     <Comment>SwitchLink dimmer Dual Band (*A*)</Comment><Coords>['0', '0']</Coords>
@@ -516,7 +516,7 @@ XML_LONG = """
                     <Type>Light</Type><UUID>ec9de750-89c9-11e3-9709-082e5f8cdfd2</UUID>
                     <Address>18.C9.4A</Address><Controller>True</Controller><DevCat>0x20a</DevCat>
                     <GroupList>All_Lights|LR|LivingRoom(21;0)</GroupList><GroupNumber>0</GroupNumber>
-                    <Master>0</Master><ProductKey>0</ProductKey><Responder>True</Responder>
+                    <Main>0</Main><ProductKey>0</ProductKey><Responder>True</Responder>
                 </Light>
                 <Light Active="True" Key="8" Name="wet_bar">
                     <Comment>SwitchLink dimmer Dual Band (*A*)</Comment><Coords>['0', '0']</Coords>
@@ -524,21 +524,21 @@ XML_LONG = """
                     <Type>Light</Type><UUID>ec9de751-89c9-11e3-a0d4-082e5f8cdfd2</UUID>
                     <Address>18.C5.8F</Address><Controller>True</Controller><DevCat>36787</DevCat>
                     <GroupList>All_Lights|LR|LivingRoom(11;10)</GroupList><GroupNumber>0</GroupNumber>
-                    <Master>0</Master><ProductKey>9451516</ProductKey><Responder>True</Responder>
+                    <Main>0</Main><ProductKey>9451516</ProductKey><Responder>True</Responder>
                 </Light>
                 <Light Active="True" Key="9" Name="test_lamp1">
                     <Comment>v4.3 LampLink</Comment><Coords>['0', '0']</Coords><Dimmable>False</Dimmable>
                     <Family>Insteon</Family><Room>Office</Room><Type>Light</Type>
                     <UUID>ec9de752-89c9-11e3-b1b8-082e5f8cdfd2</UUID><Address>11.11.11</Address>
                     <Controller>True</Controller><DevCat>0x0</DevCat><GroupList>All_Lights|Office(8;8)</GroupList>
-                    <GroupNumber>0</GroupNumber><Master>1</Master><ProductKey>0</ProductKey><Responder>True</Responder>
+                    <GroupNumber>0</GroupNumber><Main>1</Main><ProductKey>0</ProductKey><Responder>True</Responder>
                 </Light>
                 <Light Active="True" Key="10" Name="lr_cans">
                     <Comment>SwitchLink dimmer</Comment><Coords>['0', '0']</Coords><Dimmable>True</Dimmable>
                     <Family>Insteon</Family><Room>Living Room</Room><Type>Light</Type>
                     <UUID>ec9e0e61-89c9-11e3-a9d4-082e5f8cdfd2</UUID><Address>16.C2.9A</Address>
                     <Controller>True</Controller><DevCat>0x0</DevCat><GroupList>All_Lights|LR|LivingRoom(20;0)</GroupList>
-                    <GroupNumber>0</GroupNumber><Master>0</Master><ProductKey>0</ProductKey><Responder>True</Responder>
+                    <GroupNumber>0</GroupNumber><Main>0</Main><ProductKey>0</ProductKey><Responder>True</Responder>
                 </Light>
                 <Light Active="True" Key="11" Name="kitchen_counter">
                     <Comment>None</Comment><Coords>None</Coords><Dimmable>False</Dimmable>
@@ -561,7 +561,7 @@ XML_LONG = """
                     <Room>Living Room</Room><Type>Light</Type>
                     <UUID>ec9e0e64-89c9-11e3-b116-082e5f8cdfd2</UUID><Address>1A.E7.12</Address>
                     <Controller>True</Controller><DevCat>0x0</DevCat><GroupList />
-                    <GroupNumber>0</GroupNumber><Master>0</Master><ProductKey>00.00.00</ProductKey>
+                    <GroupNumber>0</GroupNumber><Main>0</Main><ProductKey>00.00.00</ProductKey>
                     <Responder>True</Responder>
                 </Light>
                 <Light Active="False" Key="14" Name="Christmas_02">
@@ -569,7 +569,7 @@ XML_LONG = """
                     <Family>Insteon</Family><Room>Living Room</Room><Type>Light</Type>
                     <UUID>ec9e3570-89c9-11e3-b762-082e5f8cdfd2</UUID>
                     <Address>1A.EB.84</Address><Controller>True</Controller><DevCat>0</DevCat>
-                    <GroupList /><GroupNumber>0</GroupNumber><Master>0</Master>
+                    <GroupList /><GroupNumber>0</GroupNumber><Main>0</Main>
                     <ProductKey>00.00.00</ProductKey><Responder>True</Responder>
                 </Light>
                 <Light Active="False" Key="15" Name="Christmas_03">
@@ -577,7 +577,7 @@ XML_LONG = """
                     <Family>Insteon</Family><Room>Living Room</Room><Type>Light</Type>
                     <UUID>ec9e3571-89c9-11e3-9165-082e5f8cdfd2</UUID><Address>1A.EB.29</Address>
                     <Controller>True</Controller><DevCat>0</DevCat><GroupList />
-                    <GroupNumber>0</GroupNumber><Master>0</Master><ProductKey>00.00.00</ProductKey>
+                    <GroupNumber>0</GroupNumber><Main>0</Main><ProductKey>00.00.00</ProductKey>
                     <Responder>True</Responder>
                 </Light>
             </Lights>
@@ -587,15 +587,15 @@ XML_LONG = """
                     <Coords>None</Coords>
                     <Dimmable>False</Dimmable>
                     <Family>Insteon</Family>
-                    <Room>Master Bath</Room>
+                    <Room>Main Bath</Room>
                     <Type>Button</Type>
                     <UUID>ec97308f-89c9-11e3-a78b-082e5f8cdfd2</UUID>
                     <Address>16.E5.B6</Address>
                     <Controller>True</Controller>
                     <DevCat>0x0</DevCat>
-                    <GroupList>All_Lights|MasterBedroom(0;0)</GroupList>
+                    <GroupList>All_Lights|MainBedroom(0;0)</GroupList>
                     <GroupNumber>1</GroupNumber>
-                    <Master>0</Master>
+                    <Main>0</Main>
                     <ProductKey>0</ProductKey>
                     <Responder>True</Responder>
                 </Button>
@@ -605,14 +605,14 @@ XML_LONG = """
                     <Room /><Type>Button</Type><UUID>ec97579e-89c9-11e3-832c-082e5f8cdfd2</UUID>
                     <Address>16.E5.B6</Address><Controller>True</Controller><DevCat>0</DevCat>
                     <GroupList>All_Buttons</GroupList><GroupNumber>2</GroupNumber>
-                    <Master>False</Master><ProductKey>0</ProductKey><Responder>True</Responder>
+                    <Main>False</Main><ProductKey>0</ProductKey><Responder>True</Responder>
                 </Button>
                 <Button Active="False" Key="2" Name="kpl_1_C">
                     <Comment>KeypadLink Button C</Comment><Coords>None</Coords>
                     <Dimmable>False</Dimmable><Family>Insteon</Family><Room /><Type>Button</Type>
                     <UUID>ec97579f-89c9-11e3-b0d7-082e5f8cdfd2</UUID><Address>16.E5.B6</Address>
                     <Controller>True</Controller><DevCat>0</DevCat><GroupList>All_Buttons</GroupList>
-                    <GroupNumber>3</GroupNumber><Master>False</Master><ProductKey>0</ProductKey>
+                    <GroupNumber>3</GroupNumber><Main>False</Main><ProductKey>0</ProductKey>
                     <Responder>True</Responder>
                 </Button>
                 <Button Active="False" Key="3" Name="kpl_1_D">
@@ -620,7 +620,7 @@ XML_LONG = """
                     <Dimmable>False</Dimmable><Family>Insteon</Family><Room /><Type>Button</Type>
                     <UUID>ec9757a0-89c9-11e3-a0c5-082e5f8cdfd2</UUID><Address>16.E5.B6</Address>
                     <Controller>True</Controller><DevCat>0</DevCat><GroupList>All_Buttons</GroupList>
-                    <GroupNumber>4</GroupNumber><Master>False</Master><ProductKey>0</ProductKey>
+                    <GroupNumber>4</GroupNumber><Main>False</Main><ProductKey>0</ProductKey>
                     <Responder>True</Responder>
                 </Button>
                 <Button Active="False" Key="4" Name="kpl_1_E">
@@ -628,7 +628,7 @@ XML_LONG = """
                     <Dimmable>False</Dimmable><Family>Insteon</Family><Room /><Type>Button</Type>
                     <UUID>ec9757a1-89c9-11e3-a7c3-082e5f8cdfd2</UUID><Address>16.E5.B6</Address>
                     <Controller>True</Controller><DevCat>0</DevCat><GroupList>All_Buttons</GroupList>
-                    <GroupNumber>5</GroupNumber><Master>False</Master>
+                    <GroupNumber>5</GroupNumber><Main>False</Main>
                     <ProductKey>0</ProductKey><Responder>True</Responder>
                 </Button>
                 <Button Active="False" Key="5" Name="kpl_1_F">
@@ -637,7 +637,7 @@ XML_LONG = """
                     <Type>Button</Type><UUID>ec977eb0-89c9-11e3-bf6d-082e5f8cdfd2</UUID>
                     <Address>16.E5.B6</Address><Controller>True</Controller><DevCat>0</DevCat>
                     <GroupList>All_Buttons</GroupList><GroupNumber>6</GroupNumber>
-                    <Master>False</Master><ProductKey>0</ProductKey><Responder>True</Responder>
+                    <Main>False</Main><ProductKey>0</ProductKey><Responder>True</Responder>
                 </Button>
                 <Button Active="False" Key="6" Name="kpl_1_G">
                     <Comment>KeypadLink Button G</Comment><Coords>None</Coords>
@@ -645,22 +645,22 @@ XML_LONG = """
                     <Room /><Type>Button</Type><UUID>ec977eb1-89c9-11e3-82d4-082e5f8cdfd2</UUID>
                     <Address>16.E5.B6</Address><Controller>True</Controller><DevCat>0</DevCat>
                     <GroupList>All_Buttons</GroupList><GroupNumber>7</GroupNumber>
-                    <Master>False</Master><ProductKey>0</ProductKey><Responder>True</Responder>
+                    <Main>False</Main><ProductKey>0</ProductKey><Responder>True</Responder>
                 </Button><Button Active="False" Key="7" Name="kpl_1_H">
                     <Comment>KeypadLink Button H</Comment><Coords>None</Coords>
                     <Dimmable>False</Dimmable><Family>Insteon</Family><Room />
                     <Type>Button</Type><UUID>ec977eb2-89c9-11e3-a4ef-082e5f8cdfd2</UUID>
                     <Address>16.E5.B6</Address>
                     <Controller>True</Controller><DevCat>0</DevCat><GroupList>All_Buttons</GroupList>
-                    <GroupNumber>8</GroupNumber><Master>False</Master><ProductKey>0</ProductKey>
+                    <GroupNumber>8</GroupNumber><Main>False</Main><ProductKey>0</ProductKey>
                     <Responder>True</Responder>
                 </Button>
-                <Button Active="False" Key="8" Name="nook_chand_slave">
+                <Button Active="False" Key="8" Name="nook_chand_subordinate">
                     <Comment>SwitchLink dimmer</Comment><Coords>None</Coords><Dimmable>True</Dimmable>
                     <Family>Insteon</Family><Room /><Type>Light</Type>
                     <UUID>ec97a5c0-89c9-11e3-bbea-082e5f8cdfd2</UUID><Address>17.C3.30</Address>
                     <Controller>True</Controller><DevCat>0</DevCat><GroupList>All_Lights|Nook(12;12)</GroupList>
-                    <GroupNumber>0</GroupNumber><Master>False</Master><ProductKey>0</ProductKey>
+                    <GroupNumber>0</GroupNumber><Main>False</Main><ProductKey>0</ProductKey>
                     <Responder>True</Responder>
                 </Button>
                 <Button Active="False" Key="9" Name="dr_chand2">
@@ -669,7 +669,7 @@ XML_LONG = """
                     <UUID>ec97a5c1-89c9-11e3-ac93-082e5f8cdfd2</UUID>
                     <Address>16.C9.D0</Address><Controller>True</Controller><DevCat>0</DevCat>
                     <GroupList>All_Lights|Pantry(0;0)</GroupList><GroupNumber>0</GroupNumber>
-                    <Master>False</Master><ProductKey>0</ProductKey><Responder>True</Responder>
+                    <Main>False</Main><ProductKey>0</ProductKey><Responder>True</Responder>
                 </Button>
                 <Button Active="False" Key="10" Name="TestButton">
                     <Comment>None</Comment>
@@ -694,7 +694,7 @@ XML_LONG = """
                     <DevCat>0x0</DevCat>
                     <GroupList />
                     <GroupNumber>0</GroupNumber>
-                    <Master>False</Master>
+                    <Main>False</Main>
                     <ProductKey>0</ProductKey>
                     <Responder>True</Responder>
                     <Interface>Serial</Interface>
@@ -713,7 +713,7 @@ XML_LONG = """
                     <Family>Insteon</Family><Room>Office</Room><Type>Controller</Type>
                     <UUID>ec99a18f-89c9-11e3-b271-082e5f8cdfd2</UUID><Address>17.03.B2</Address>
                     <Controller>True</Controller><DevCat>0x0</DevCat><GroupList />
-                    <GroupNumber>0</GroupNumber><Master>False</Master><ProductKey>0</ProductKey>
+                    <GroupNumber>0</GroupNumber><Main>False</Main><ProductKey>0</ProductKey>
                     <Responder>True</Responder><Interface>Serial</Interface><Port>/dev/ttyUSB0</Port>
                     <BaudRate>19200</BaudRate>
                     <ByteSize>8</ByteSize><Parity>N</Parity><StopBits>1.0</StopBits>
@@ -722,7 +722,7 @@ XML_LONG = """
                 <Controller Active="False" Key="2" Name="UPB_PIM">
                     <Comment>UPB PIM  using USB connection</Comment><Coords>None</Coords>
                     <Dimmable>True</Dimmable>
-                    <Family>UPB</Family><Room>Master Bath</Room><Type>Controller</Type>
+                    <Family>UPB</Family><Room>Main Bath</Room><Type>Controller</Type>
                     <UUID>ec9bc470-89c9-11e3-8f15-082e5f8cdfd2</UUID>
                     <UPBNetworkID>0</UPBNetworkID>
                     <UPBPassword>0</UPBPassword>

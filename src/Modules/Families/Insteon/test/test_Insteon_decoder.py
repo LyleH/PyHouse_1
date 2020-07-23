@@ -63,7 +63,7 @@ class A1_Setup(SetupMixin, unittest.TestCase):
         """Test that PyHouse_obj has the needed info.
         """
         #  print(PrettyFormatAny.form(self.m_pyhouse_obj, 'PyHouse'))
-        self.assertEqual(self.m_pyhouse_obj.Xml.XmlFileName, '/etc/pyhouse/master.xml')
+        self.assertEqual(self.m_pyhouse_obj.Xml.XmlFileName, '/etc/pyhouse/main.xml')
 
     def test_02_House(self):
         #  print(PrettyFormatAny.form(self.m_pyhouse_obj.House, 'PyHouse.House'))

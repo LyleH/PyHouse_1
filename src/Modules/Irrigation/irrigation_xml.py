@@ -68,9 +68,9 @@ class Xml(object):
     def read_irrigation_xml(p_pyhouse_obj):
         """
         May contain zero or more irrigation systems.
-        Each system may be controlled by a master valve (solenoid).
+        Each system may be controlled by a main valve (solenoid).
         Also may need to trigger a well pump solenoid.
-        @param p_pyhouse_obj: is the master object containing the XML
+        @param p_pyhouse_obj: is the main object containing the XML
         @return: the Irrigation object.
         """
         l_obj = {}

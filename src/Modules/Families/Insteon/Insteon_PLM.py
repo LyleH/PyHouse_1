@@ -484,7 +484,7 @@ class Utility(LightHandlerAPI):
 
     def start_controller_and_driver(self, p_pyhouse_obj, p_controller_obj):
         """
-        @param p_pyhouse_obj: is the master obj
+        @param p_pyhouse_obj: is the main obj
         @param p_controller_obj: is the particular controller that we will be starting
 
         """

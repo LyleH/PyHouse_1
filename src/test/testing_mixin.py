@@ -112,7 +112,7 @@ class SetupPyHouseObj(object):
     def _build_xml(self, p_root):
         l_ret = XmlInformation()
         l_ret.XmlRoot = p_root
-        l_ret.XmlFileName = '/etc/pyhouse/master.xml'
+        l_ret.XmlFileName = '/etc/pyhouse/main.xml'
         return l_ret
 
     def _build_twisted(self):

@@ -106,7 +106,7 @@ class API(object):
     @staticmethod
     def read_all_lights_xml(p_pyhouse_obj, p_light_sect_xml):
         """
-        @param p_pyhouse_obj: is the master information store
+        @param p_pyhouse_obj: is the main information store
         @param p_light_sect_xml: the "LightSection" of the config
         @param p_version: is the XML version of the file to use.
         @return: a dict of lights info
