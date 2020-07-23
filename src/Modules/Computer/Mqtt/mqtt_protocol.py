@@ -581,7 +581,7 @@ class PyHouseMqttFactory(ReconnectingClientFactory):
 
     def __init__(self, p_pyhouse_obj, p_client_id, p_broker, p_username, p_password):
         """
-        @param p_pyhouse_obj: is the master information store
+        @param p_pyhouse_obj: is the main information store
         @param p_client_id: is the ID of this computer that will be supplied to the broker
         @param p_broker: is the object for this broker
         """

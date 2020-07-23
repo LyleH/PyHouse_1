@@ -23,7 +23,7 @@ from Modules.Computer import logging_pyh as Logger
 from Modules.Utilities.xml_tools import PutGetXML
 
 LOG = Logger.getLogger('PyHouse.ConfigFile     ')
-XML_FILE_NAME = '/etc/pyhouse/master.xml'
+XML_FILE_NAME = '/etc/pyhouse/main.xml'
 
 
 class Util(object):
